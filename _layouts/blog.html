@@ -1,0 +1,37 @@
+---
+layout: default2
+format: blog-index
+# Don't index these pages dear Google.
+noindex: true
+---
+<div class="row">
+	<div class="medium-8 columns t30">
+		{% include pagination.html %}
+	</div><!-- /.medium-7.columns -->
+
+
+	<div class="medium-4 columns t30">
+		<div class="show-for-large-up">
+        <div class="panel radius 2" markdown="1">
+        「旅行」
+
+        {% include list-posts.html category='outward' %}
+
+        </div>
+
+        <div class="panel radius 2" markdown="1">
+        「书影音」
+
+        {% include list-posts.html category='inward' %}
+
+        </div>
+
+        <div class="panel radius 2" markdown="1">
+        「琐思」
+
+        {% include list-posts.html category='others' %}
+
+        </div>
+		
+	</div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
