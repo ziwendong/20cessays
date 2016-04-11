@@ -21,7 +21,7 @@ description: "旅途中的阅读，书斋中的远行......       感谢您访�
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "http://ziwendong.github.io/20zwsw/"
+url: "http://ziwendong.github.io/20cessays/"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
@@ -34,7 +34,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://ziwendong.github.io/20zwsw/images/"
+urlimg: "http://ziwendong.github.io/20cessays/images/"
 
 
 # Logo size is 600x80 pixels
